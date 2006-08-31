@@ -1,0 +1,21 @@
+x11proto-print (1.0.3.xsf1-1) unstable; urgency=low
+
+  * Bring unstable into sync with XSF copy.
+  * Renumber version to account for move to XSF, with the upstream
+    tarball no longer managed by dbs as a tarball inside a tarball.
+
+ -- Drew Parsons <dparsons@debian.org>  Thu, 31 Aug 2006 20:25:23 +1000
+
+x11proto-print (1.0.3-2) experimental; urgency=low
+
+  * Brought into the XSF repository.  Uses same debian/rules as other
+    proto packages.
+  * Standards version 3.7.2.
+
+ -- Drew Parsons <dparsons@debian.org>  Wed, 26 Jul 2006 18:13:16 +1000
+
+x11proto-print (1.0.3-1) unstable; urgency=low
+
+  * Initial release for modular X11R7.
+
+ -- Drew Parsons <dparsons@debian.org>  Sun, 16 Apr 2006 15:43:16 +1000
