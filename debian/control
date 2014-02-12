@@ -2,22 +2,22 @@ Source: x11proto-print
 Section: x11
 Priority: optional
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Uploaders: Drew Parsons <dparsons@debian.org>, David Nusinow <dnusinow@debian.org>, Branden Robinson <branden@debian.org>, Fabio M. Di Nitto <fabbione@fabbione.net>, Andres Salomon <dilinger@debian.org>
+Uploaders: Drew Parsons <dparsons@debian.org>, Cyril Brulebois <kibi@debian.org>
 Build-Depends: debhelper (>= 5)
-Standards-Version: 3.7.2
+Standards-Version: 3.7.3
+Vcs-Git: git://git.debian.org/git/pkg-xorg/proto/x11proto-print
+Vcs-Browser: http://git.debian.org/?p=pkg-xorg/proto/x11proto-print.git
 
 Package: x11proto-print-dev
 Architecture: all
+Multi-Arch: foreign
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Conflicts: libxp-dev (<<1:1)
-Pre-Depends: x11-common (>= 1:7.0.0)
 Description: X11 Printing extension (Xprint) wire protocol
- This package provides the wire protocol for Xprint, 
- the X11 printing  extension.
+ This package provides development headers describing the wire protocol
+ for Xprint, the X11 printing extension.
  .
  More information about X.Org can be found at:
- <URL:http://xorg.freedesktop.org>
- <URL:http://lists.freedesktop.org/mailman/listinfo/xorg>
+ <URL:http://www.X.org>
  .
- This module can be found as the printproto module tarball at
- http://xorg.freedesktop.org/releases/individual/proto/
+ This package is built from the X.org printproto proto module.
